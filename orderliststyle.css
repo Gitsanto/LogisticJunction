@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+#header{
+	width:100%;
+	height:200px;
+	}
+
+#contain{
+		height:800px;
+	
+	}
+
+
+#left{
+	width:250px;
+	background-color:	#CCC;
+	float:left;
+	}
+
+
+
+#right{
+	width:100%;
+	height:800px;
+	margin-left:255px;
+	background-color:#999;
+	
+}
+
+
+#pic{
+	width:500px;
+	background-color:	#CCC;
+	height:400px;
+	float:left;
+	margin: 10px 10px 10px 10px;
+	}
+	
+.map{
+	width:200px;
+	height:200px;
+	margin: 10px 10px 10px 10px;
+	}
+	
+#myCanvas {
+    width:578px;
+    height:200px;
+    border:2px thin;
+}

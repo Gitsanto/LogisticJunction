@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<script src="junction.js"></script>
+    <script  language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+ 	<script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.indigo-pink.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">	
+   
+ 
+   
+</head>
+<link rel="stylesheet" type="text/css" href="orderliststyle.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- The drawer is always open in large screens. The header is always shown,  even in small screens. -->
+   <div class="mdl-layout mdl-js-layout ">
+      <header class="mdl-layout__header mdl-layout__header--waterfall">
+	     <!-- Top row, always visible -->
+         <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Menu</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+	  </div>
+	    <!-- Bottom row, not visible on scroll -->
+    <div class="mdl-layout__header-row">
+      <div class="mdl-layout-spacer"></div>
+            <!-- Navigation -->
+            <nav class="mdl-navigation">
+               <a class="mdl-navigation__link" href="">UserName</a>        
+            </nav>
+         </div>
+      </header>
+      <div class="mdl-layout__drawer">
+         <span class="mdl-layout-title">Username</span>
+         <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="">Home</a>
+            <a class="mdl-navigation__link" href="">Profile</a>  
+            <a class="mdl-navigation__link" href="">About</a>    
+         </nav>
+      </div>
+      <main class="mdl-layout__content">
+         <div class="page-content" >
+         <div id="left">
+         
+         <table class="mdl-data-table mdl-js-data-table mdl-shadow--4dp" style="width:100%; text-align:left">
+  <thead>
+    <tr>
+      <th>Order lists</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Row 2 -->
+    <tr>
+      <td>Books</td>
+    </tr>
+    
+    <!-- Row 3 -->
+    <tr>
+      <td>Personal computer</td> 
+    </tr>
+    
+  </tbody>
+</table></div>
+        
+        
+ <div id="right">
+    <div id="pic"> </div> 
+    
+     <div class="map">
+     <img src="map.png" height="200px">
+     
+     </div>
+    
+<form name="test">
+<input type="button" name="lock" value="ロック" onClick="command_send1(1)">
+<input type="button" name="unlock" value="解錠" onClick="command_send1(2)">
+</form>
+    </div>
+		 </div>
+      </main>
+   </div>
+     
+</body>
+</html>
